@@ -4,4 +4,5 @@
     <string name="winner_winner">Winner!</string>
     <string name="loser_loser">Loser!</string>
     <string name="promt_tap_continue">Tap to continue</string>
+    <string name="main_turns_left">Turns Left:</string>
 </resources>
