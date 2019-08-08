@@ -65,7 +65,6 @@ public class MainActivity extends Activity {
             //to click a third button to check the score.
         } else{
             remainingTurns--;
-            textViewRemainingTurns.setText(remaining + remainingTurns);
             if(remainingTurns == -1){
                 Intent i = new Intent(MainActivity.this, LoserActivity.class);
                 startActivity(i);
@@ -83,6 +82,7 @@ public class MainActivity extends Activity {
                 buttonFirst.setClickable(true);
                 buttonSecond.setTextSize(0);
             }
+            textViewRemainingTurns.setText(remaining + remainingTurns);
             buttonFirst = null;
             buttonSecond = null;
         }
