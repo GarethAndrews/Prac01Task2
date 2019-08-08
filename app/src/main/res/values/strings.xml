@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Memory Buster</string>
+    <string name="splash_memory_buster">Memory Buster!</string>
+    <string name="winner_winner">Winner!</string>
+    <string name="loser_loser">Loser!</string>
+    <string name="promt_tap_continue">Tap to continue</string>
 </resources>
